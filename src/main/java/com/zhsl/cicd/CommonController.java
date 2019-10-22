@@ -1,0 +1,20 @@
+package com.zhsl.cicd;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * @Author: melodykke
+ * @Date: 2019/10/22 5:20 PM
+ */
+@RestController
+@RequestMapping("/common")
+public class CommonController {
+
+    @GetMapping("/ok")
+    public String ok() {
+        return "ok";
+    }
+
+}
