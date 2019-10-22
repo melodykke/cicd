@@ -22,4 +22,8 @@ public class CommonController {
         return "ok1";
     }
 
+    @GetMapping("/ok2")
+    public String ok2() {
+        return "ok2";
+    }
 }
