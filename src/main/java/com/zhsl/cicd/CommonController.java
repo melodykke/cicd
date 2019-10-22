@@ -17,4 +17,9 @@ public class CommonController {
         return "ok";
     }
 
+    @GetMapping("/ok1")
+    public String ok1() {
+        return "ok1";
+    }
+
 }
